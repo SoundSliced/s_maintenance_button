@@ -1,6 +1,6 @@
 name: s_maintenance_button
 description: A Flutter widget that provides a visual maintenance mode indicator button with animated glow effect. Only visible in debug/profile modes.
-version: 1.0.0
+version: 2.0.0
 homepage: https://github.com/SoundSliced/s_maintenance_button
 repository: https://github.com/SoundSliced/s_maintenance_button
 issue_tracker: https://github.com/SoundSliced/s_maintenance_button/issues
@@ -12,11 +12,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  s_glow: ^1.1.0
-  s_disabled: ^1.0.0
-  s_button: ^1.2.1
-  assorted_layout_widgets: ^11.0.0
-  soundsliced_dart_extensions: ^1.0.1
+  s_packages: ^1.1.2
 
 dev_dependencies:
   flutter_test:
@@ -24,3 +20,4 @@ dev_dependencies:
   flutter_lints: ^6.0.0
 
 flutter:
+  uses-material-design: true
