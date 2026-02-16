@@ -21,7 +21,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  s_maintenance_button: ^2.0.0
+  s_maintenance_button: ^2.1.0
 ```
 
 Then run:
@@ -92,6 +92,9 @@ class _MyWidgetState extends State<MyWidget> {
 |----------|------|---------|-------------|
 | `activeColor` | `Color?` | `Colors.red` | The color used for the glow effect and button background when `isOnMaintenance` is `true` |
 | `nonActiveColor` | `Color?` | `Colors.blue.shade900` | The icon color when `isOnMaintenance` is `false` |
+| `icon` | `IconData?` | `Icons.build` | Custom button icon |
+| `showConfirmation` | `bool` | `false` | Show confirmation dialog before action |
+| `confirmationMessage` | `String?` | `null` | Custom message for confirmation dialog |
 
 ---
 
